@@ -2,6 +2,9 @@
 
 b_createShapeFunctions
 
+Objective:
+Create a function that allows me to generate polygon shapes of n-sides
+
 */
 
 
