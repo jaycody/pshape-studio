@@ -7,7 +7,7 @@ ____________
 ## Ref
 * [Shiffman - Custom Shapes - p5.js Tutorial][1]
 * [Rune's Programming Design Systems][2]
-    *[Github: Programing Design System examples][5]
+   * [Code examples for Rune's book on Github][5]
 * [Centripetal Catmull–Rom spline][3]
 * [A Brief History of Graphics][4]
 
