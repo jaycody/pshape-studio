@@ -1,5 +1,5 @@
 # pshape-studio
-> experiments with PShapes, textures, offScreenBuffers, nested graphics layers, feedback loops, etc.
+> experiments with PShapes, beginContour(), quadraticVertex() textures, offScreenBuffers, nested graphics layers, feedback loops, etc.
 ____________
 
 
@@ -11,6 +11,11 @@ ____________
 * [Centripetal Catmull–Rom spline][3]
 * [A Brief History of Graphics][4]
 
+-------
+
+## Contours
+From Rune's book:  
+While we can draw most shapes with vertex(), quadraticVertex(), and bezierVertex(), these functions won't allow us to create shapes with holes. In P5.js, a hole is called a contour, and you can draw shapes with contours using the beginContour() and endContour() functions. In essence, the beginContour() function instructs P5 that you are starting a new shape that will be subtracted from your main shape. Like beginShape(), you use the vertex functions to draw your contour, and use endContour() to end the contour.
 
 
 
