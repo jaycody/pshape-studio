@@ -1,2 +1,2 @@
 # p-shape-studio
-experiments with PShape objects - the basic building block of Portal-Control, the computational feedback project 
+> experiments with PShapes, textures, offScreenBuffers, nested graphics layers, feedback loops, etc.
