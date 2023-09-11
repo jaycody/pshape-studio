@@ -18,7 +18,9 @@ From Rune's book:
 While we can draw most shapes with vertex(), quadraticVertex(), and bezierVertex(), these functions won't allow us to create shapes with holes. In P5.js, a hole is called a contour, and you can draw shapes with contours using the beginContour() and endContour() functions. In essence, the beginContour() function instructs P5 that you are starting a new shape that will be subtracted from your main shape. Like beginShape(), you use the vertex functions to draw your contour, and use endContour() to end the contour.
 
 
-
+## Examples
+* [The Superformula - function to create vertices for shapes][6]
+* [Create Early Comp Graphics][7]
 
 
 
@@ -29,5 +31,7 @@ While we can draw most shapes with vertex(), quadraticVertex(), and bezierVertex
 [3]:https://en.wikipedia.org/wiki/Centripetal_Catmull%E2%80%93Rom_spline
 [4]:https://www.youtube.com/watch?v=QyjyWUrHsFc
 [5]:https://github.com/runemadsen/programmingdesignsystems.com
+[6]:https://youtu.be/u6arTXBDYhQ?si=4LxAB5CaqAflKtPy
+[7]:https://youtu.be/LaarVR1AOvs?si=xyamXVdk3_tlFvHH
 
 
