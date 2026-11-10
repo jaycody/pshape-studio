@@ -41,7 +41,10 @@ void myPolygon(float x, float y, float radius, float npoints) {
 	float theta = TWO_PI / npoints;
 
 	beginShape();
-	for (int a = 0; a < TWO_PI; a += theta){
+	// Count vertices, not radians: an int angle truncated each step
+	// (wrong shapes, and an endless loop for 7+ sides).
+	for (int i = 0; i < npoints; i++){
+		float a = i * theta;
 		float sx = x + cos(a) * radius;
 		float sy = y + sin(a) * radius;
 		vertex(sx, sy);

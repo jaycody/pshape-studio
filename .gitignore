@@ -1,6 +1,12 @@
-.DS_store
-.tif
-.png
-.mov
-.jpg
+# macOS
+.DS_Store
 
+# Processing build output
+build-tmp/
+
+# Recorded frames, snapshots, and video from sketches
+frames/
+snaps/
+*.tif
+*.tiff
+*.mov
